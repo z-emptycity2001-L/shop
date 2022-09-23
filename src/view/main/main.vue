@@ -32,6 +32,7 @@ const route = useRoute();
 .main {
   position: relative;
   height: 100%;
+  margin-top: 49px;
   .main-title {
     height: 49px;
     background-color: rgb(232, 55, 117);
@@ -39,6 +40,10 @@ const route = useRoute();
     justify-content: center;
     align-content: center;
     box-shadow: 0 1px 3px #a49f9f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
     .title-content {
       font-size: 16px;
       line-height: 49px;

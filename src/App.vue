@@ -17,5 +17,6 @@
 :root{
   --font-color-S-H:#272727;
   --font-shadow-S-H:2px 0 6px #c0c0c0;
+  --theme-color:#e83775
 }
 </style>

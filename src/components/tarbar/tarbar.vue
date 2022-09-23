@@ -88,6 +88,7 @@ onMounted(()=>{
 .tarbar {
   display: flex;
   justify-content: space-around;
+  background-color: #fff;
   .tarbar__item {
     display: flex;
     flex-direction: column;

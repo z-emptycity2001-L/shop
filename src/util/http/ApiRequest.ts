@@ -4,3 +4,12 @@ export const getBannerData=()=>{
         url:'/home/multidata'
     })
 }
+export const getHomeShopData=(type:string,page=1)=>{
+    return request({
+        url:'/home/data',
+        params:{
+            type,
+            page
+        }
+    })
+}
